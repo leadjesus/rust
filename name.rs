@@ -9,7 +9,7 @@ fn main() {
     
     //accept input into ent_name
     io::stdin().read_line(&mut ent_name)
-        .expect("failed to read line);
+        .expect("failed to read line");
     //greetings
-    print!("Welcome, ");
-    print!("{}", ent_name);
+    print!("Welcome, {}", ent_name);
+}
